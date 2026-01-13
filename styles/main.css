@@ -36,8 +36,8 @@
 }
 
 :root {
-  --main-bg: #FFFFFF;
-  --color-white: #FFFFFF;
+  --main-bg: #ffffff;
+  --color-white: #ffffff;
   --color-black: #252525;
   --bg-section-second: #212121;
   /* --bg-section-second: #FFA00A; */
@@ -58,12 +58,12 @@
   --after-element: #ffffff33;
   --after-element-second: #00000033;
   /* --button-primary-bg: #FF522C; */
-  --button-primary-bg: linear-gradient(to top, #F5333E 0%, #E20B68 100%);
-  --button-primary-color: #FFFFFF;
+  --button-primary-bg: linear-gradient(to top, #f5333e 0%, #e20b68 100%);
+  --button-primary-color: #ffffff;
   --button-font-size-primary: 28px;
   --button-primary-width: 340px;
   --button-primary-height: 82px;
-  --button-secondary-bg: linear-gradient(to top, #F58F46 0%, #FFD900 100%);
+  --button-secondary-bg: linear-gradient(to top, #f58f46 0%, #ffd900 100%);
   /* --button-secondary-bg: #F9F522; */
   --button-secondary-color: #252525;
   --button-secondary-width: 189px;
@@ -72,10 +72,10 @@
   --button-font-size-mobile-primary: 24px;
   --button-secondary-mobile-width: 200px;
   --button-font-size-mobile-secondary: 18px;
-  --header-active-color: #F5333E;
+  --header-active-color: #f5333e;
   --header-second-desktop-button-width: 200px;
   --header-buttons-desktop-height: 46px;
-  --header-buttons-color-text: #FFFFFF;
+  --header-buttons-color-text: #ffffff;
   --button-font-size-desktop-header: 14px;
   --button-radius-desktop: 6px;
   --header-buttons-mobile-height: 32px;
@@ -85,17 +85,17 @@
   --button-accordion-mobile-width: 200px;
   --svg--info-width: 26px;
   --table-head: #212121;
-  --table-head-color: #FFFFFF;
-  --table-body: #E0E0E0;
+  --table-head-color: #ffffff;
+  --table-body: #e0e0e0;
   --table-body-color: #252525;
-  --welcome-bonus-color: #FFFFFF;
-  --bonus-section-text: #FFFFFF;
+  --welcome-bonus-color: #ffffff;
+  --bonus-section-text: #ffffff;
   --bonus-section-bg: #353535;
-  --h1-section-bg: #E0E0E0;
+  --h1-section-bg: #e0e0e0;
   --h1-section-color-text: #252525;
-  --topCasino-welcome: #FA6561;
+  --topCasino-welcome: #fa6561;
   --top-casino-text-color: #252525;
-  --top-games-text-color: #FA6561;
+  --top-games-text-color: #fa6561;
   /* --payments-table-head: #0f4e8b;
   --payments-table-body: #e4f2ff;
   --payments-text-left: #0084ff;
@@ -104,9 +104,9 @@
   --faq-text-color: #252525;
   --faqTitle-text-color: #252525;
   --support-text-color: #252525;
-  --last-text-color: #FFFFFF;
-  --casinoInfo-text-color: #FFFFFF;
-  --app-text-color: #FFFFFF;
+  --last-text-color: #ffffff;
+  --casinoInfo-text-color: #ffffff;
+  --app-text-color: #ffffff;
   --topCasino-title-color: #252525;
   --bonusDetailsTitle-text-color: #252525;
   --topGamesTitle-text-color: #252525;
@@ -1019,8 +1019,8 @@ button:hover {
 }
 @media (max-width: 550px) {
   .bonusSection {
-    background: url("../public/sectionImg/slot1-mobile.webp") no-repeat top 10%
-      center / auto 46%;
+    background: url("../public/sectionImg/slot1-mobile.webp") no-repeat top 5%
+      center / auto 36%;
   }
   .bonusSection_wrapper {
     gap: 51px;
@@ -1039,6 +1039,11 @@ button:hover {
   }
   .bonusSection_left p {
     font-size: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .bonusSection_wrapper {
+    gap: 0;
   }
 }
 @media (max-width: 350px) {
