@@ -1,2 +1,2 @@
-export const url = "crowncasino-online.com";
-export const siteName = "Crown Casino Online";
+export const url = "bruno-casino.net";
+export const siteName = "Bruno Casino Deutschland";
