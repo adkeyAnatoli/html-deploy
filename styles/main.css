@@ -556,6 +556,11 @@ button:hover,
   display: inline-block;
   margin-top: 3px;
 }
+@media (min-width: 1450px) {
+  .footer .logo {
+    position: inherit;
+  }
+}
 @media (max-width: 1390px) {
   .footer .logo {
     position: inherit;
