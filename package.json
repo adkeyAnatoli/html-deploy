@@ -1,0 +1,16 @@
+{
+  "name": "luxurymultylang",
+  "version": "1.0.0",
+  "description": "You also need to install all the required libraries.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
