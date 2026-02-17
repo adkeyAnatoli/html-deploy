@@ -1,0 +1,5 @@
+User-agent: * 
+Allow: / 
+Disallow: /casino/
+Host: https://touch-casino.com/
+Sitemap: https://touch-casino.com/sitemap.xml
