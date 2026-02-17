@@ -427,26 +427,26 @@ button:hover,
     justify-content: center;
   }
   .logoBlock > a img {
-    /* scale: 0.55; */
-    margin-left: 0;
+    scale: 0.55;
+    margin-left: 40px;
   }
 }
 
 @media (max-width: 375px) {
   .logoBlock > a img {
-    /* margin-left: 20px; */
+    margin-left: 40px;
   }
 }
 @media (max-width: 350px) {
   .logoBlock > a {
     max-width: 130px;
   }
-  /* .logoBlock > a img {
+  .logoBlock > a img {
     scale: 0.5;
   }
   .header_wrapper a img {
-    margin-left: -21px;
-  } */
+    margin-left: 0px;
+  }
 }
 
 .h1Section {
