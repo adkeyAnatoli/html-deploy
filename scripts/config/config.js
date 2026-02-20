@@ -1,2 +1,2 @@
-export const SITE_ID = 148;
+export const SITE_ID = 155;
 export const siteName = "Betti Casino UK";
