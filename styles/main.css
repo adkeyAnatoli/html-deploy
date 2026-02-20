@@ -84,7 +84,7 @@ button:hover,
 .button-primary:hover,
 .button-secondary:hover,
 .login:hover,
-.register:hover {
+.register:hover,.cardCasino:hover button {
   transform: scale(1.07);
 }
 .container {

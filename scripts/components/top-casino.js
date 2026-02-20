@@ -33,7 +33,14 @@ export function renderTopCasino() {
     grid.innerHTML = "";
 
     appState.website.offers.slice(0, visibleCount).forEach((offer) => {
-      const card = createEl("div", { className: "cardCasino" });
+      const card = createEl("a", {
+        className: "cardCasino",
+        attrs: { href: `casino/${offer.id}` },
+      });
+      card.addEventListener("click", (ev) => {
+        ev.preventDefault();
+        navigateToOffer(offer.id, offer.link);
+      });
       const img = createEl("img");
 
       img.src = `https://api.adkey-seo.com/storage/images/offers/${offer.logo}`;
@@ -58,15 +65,11 @@ export function renderTopCasino() {
             : "",
       });
 
-      const btn = createEl("a", {
+      const btn = createEl("button", {
         className: "button-secondary",
-        attrs: { href: `casino/${offer.id}` },
       });
       btn.textContent = "Claim Bonus";
-      btn.addEventListener("click", (ev) => {
-        ev.preventDefault();
-        navigateToOffer(offer.id, offer.link);
-      });
+      
 
       card.appendChild(img);
       card.appendChild(h3);
