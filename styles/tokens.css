@@ -70,8 +70,8 @@
   --h1-section-color-text: #1C1C1C;
   --top-casino-text-color: #1C1C1C;
   --faq-question-color: #1C1C1C;
-  --faq-text-color: #1C1C1C;
-  --faqTitle-text-color: #1C1C1C;
+  --faq-text-color: #FFFFFF;
+  --faqTitle-text-color: #FFFFFF;
   --support-text-color: #1C1C1C;
   --last-text-color: #FFFFFF;
   --casinoInfo-text-color: #FFFFFF;
@@ -80,4 +80,5 @@
   /* --bonusDetailsTitle-text-color: #1C1C1C; */
   --topGamesTitle-text-color: #1C1C1C;
   --afterPayments-text-color: #1C1C1C;
+  --afterSupport-text-color: #1C1C1C;
 }

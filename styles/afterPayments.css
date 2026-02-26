@@ -1,12 +1,20 @@
-#after-payments {
+#after-payments,
+#after-support {
   margin: 140px 0;
 }
 #after-payments .text,
-#after-payments h2, #after-payments h3 {
+#after-payments h2,
+#after-payments h3 {
   color: var(--afterPayments-text-color);
 }
+#after-support .text,
+#after-support h2,
+#after-support h3 {
+  color: var(--afterSupport-text-color);
+}
 @media (max-width: 768px) {
-  #after-payments {
+  #after-payments,
+  #after-support {
     margin: 64px 0;
   }
 }
@@ -15,6 +23,6 @@
   margin-left: 16px;
 }
 
-#after-payments ul li{
+#after-payments ul li {
   list-style: disc inside;
 }

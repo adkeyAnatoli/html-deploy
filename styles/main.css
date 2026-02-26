@@ -100,7 +100,7 @@ button:hover,
   color: var(--color-white);
 }
 .title-black {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .wrapper {
   display: flex;
@@ -369,7 +369,7 @@ button:hover,
   gap: 24px;
 }
 .footer .logo {
-  height: 24px;
+  height: 47px;
 }
 .payments,
 .partners {
