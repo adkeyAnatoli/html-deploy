@@ -1,0 +1,132 @@
+#last .listBlock {
+  display: flex;
+  gap: 50px;
+}
+
+#last .listBlock > div {
+  display: flex;
+  width: 26%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+#last .text,
+#last h3,
+#last h4,
+#last h2 {
+  color: var(--last-text-color);
+}
+
+#last .payment-table .text,
+.payment-table .text {
+  color: var(--color-black);
+}
+
+#last h3,
+.listBlock h4,
+.lastBlockElement h4 {
+  font-size: 24px;
+}
+
+.listBlock ul,
+.lastBlockElement ul,
+.listBlock ol,
+.lastBlockElement ol {
+  margin-left: 16px;
+}
+
+.listBlock ul li,
+.lastBlockElement ul li {
+  list-style: disc inside;
+}
+
+.listBlock ol li,
+.lastBlockElement ol li {
+  list-style: decimal inside;
+}
+
+@media (max-width: 1100px) {
+  #last .listBlock > div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #last .listBlock > div,
+  #last > div {
+    gap: 24px;
+  }
+
+  #last h3 {
+    font-size: 18px;
+    font-weight: var(--font-weight-second);
+  }
+}
+
+@media (max-width: 550px) {
+  #last .listBlock {
+    flex-direction: column;
+  }
+
+  #last .listBlock > div {
+    width: auto;
+  }
+}
+
+#last .proscons-mobile {
+  display: none;
+}
+
+@media (max-width: 580px) {
+  #last .proscons-table {
+    display: none;
+  }
+
+  #last .proscons-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+
+  #last .proscons-mobile-card {
+    background: var(--main-bg);
+    border-radius: var(--border-radius);
+    padding: 16px;
+    overflow: hidden;
+  }
+
+  #last .proscons-mobile-card__title {
+    margin: 0 0 12px 0;
+    font-family: var(--font-family-main);
+    font-weight: var(--font-weight-main);
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--button-secondary-bg);
+    text-align: center;
+  }
+
+  #last .proscons-mobile-card__title--disadvantages {
+    color: var(--button-primary-bg);
+  }
+
+  #last .proscons-mobile-card__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #last .proscons-mobile-card__list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #00000033;
+    font-family: var(--font-family-second);
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--color-black);
+  }
+
+  #last .proscons-mobile-card__list li:last-child {
+    border-bottom: 0;
+  }
+}
