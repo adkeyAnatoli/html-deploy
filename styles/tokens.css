@@ -1,0 +1,83 @@
+:root {
+  --main-bg: #01182F;
+  --bonus-section-bg: #001020;
+  --h1-section-bg: #001020;
+  --table-body: #001020;
+
+  --bg-header: #01182F;
+  --bg-footer: #24354B;
+  --table-head: #24354B;
+  --bg-section-second: #24354B;
+
+  --color-white: #FFFFFF;
+  --table-head-color: #FFFFFF;
+  --table-body-color: #FFFFFF;
+
+  --copyright: #ffffff57;
+  --after-element: #ffffff33;
+  --after-element-second: #00000033;
+  --shadow: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.75));
+
+  --color-black: #000000;
+  --button-primary-color: #FFFFFF;
+  --button-secondary-color: #FFFFFF;
+  --header-buttons-color-text: #FFFFFF;
+  --header-button-first-color-text: #FFFFFF;
+
+  --font-family-main: "Anton";
+  --font-family-second: "Roboto";
+  --font-weight-main: 400;
+  --font-weight-second: 400;
+  --font-weight-third: 400;
+  --font-weight-500: 500;
+
+  --border-radius: 15px;
+  --border-radius-button: 800px;
+  --border-radius-second: 15px;
+
+  --button-primary-bg: #B30C1D;
+  --header-active-color: #B30C1D;
+  --topCasino-welcome: #B30C1D;
+  --top-games-text-color: #B30C1D;
+  --button-font-size-primary: 28px;
+  --button-primary-width: 340px;
+  --button-primary-height: 82px;
+
+  --button-secondary-bg: #0078E5;
+  --button-secondary-width: 162px;
+  --button-secondary-height: 52px;
+
+  --button-primary-mobile-width: 280px;
+  --button-font-size-mobile-primary: 24px;
+  --button-secondary-mobile-width: 200px;
+  --button-font-size-mobile-secondary: 18px;
+
+  --header-first-desktop-button-width: 110px;
+  --header-second-desktop-button-width: 200px;
+  --header-buttons-desktop-height: 45px;
+  --button-font-size-desktop-header: 14px;
+  --button-radius-desktop: 400px;
+  --header-buttons-mobile-height: 31px;
+  --header-first-mobile-button-width: 70px;
+  --header-second-mobile-button-width: 100px;
+  --button-font-size-mobile-header: 10px;
+  --button-radius-mobile: 400px;
+  --button-accordion-mobile-width: 200px;
+  --svg-info-width: 26px;
+
+  --welcome-bonus-color: #FFFFFF;
+  --bonus-section-text: #FFFFFF;
+  --h1-section-color-text: #FFFFFF;
+  --top-casino-text-color: #FFFFFF;
+  --faq-question-color: #FFFFFF;
+  --faq-text-color: #FFFFFF;
+  --faqTitle-text-color: #FFFFFF;
+  --support-text-color: #FFFFFF;
+  --last-text-color: #FFFFFF;
+  --casinoInfo-text-color: #FFFFFF;
+  --app-text-color: #FFFFFF;
+  --topCasino-title-color: #FFFFFF;
+  --topGamesTitle-text-color: #FFFFFF;
+  --afterPayments-text-color: #FFFFFF;
+  --afterSupport-text-color: #FFFFFF;
+}
