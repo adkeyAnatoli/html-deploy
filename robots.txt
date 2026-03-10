@@ -1,0 +1,5 @@
+User-agent: * 
+Allow: / 
+Disallow: /casino/
+Host: https://vipcasino-pro.com/
+Sitemap: https://vipcasino-pro.com/sitemap.xml
