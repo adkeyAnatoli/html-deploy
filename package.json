@@ -1,0 +1,10 @@
+{
+  "name": "html-casino",
+  "version": "1.0.0",
+  "scripts": {
+    "b:css": "npx cleancss -o dist/app.min.css styles/main.css",
+    "b:js": "npx esbuild scripts/main.js --bundle --outfile=dist/bundle.js --format=esm --minify --tree-shaking",
+    "b:all": "npx cleancss -o dist/app.min.css styles/main.css && npx esbuild scripts/main.js --bundle --outfile=dist/bundle.js --format=esm --minify --tree-shaking",
+    "git": "git init && git add . && git commit -m  \"init: init project\" && git remote add origin https://github.com/adkeyAnatoli/html-deploy.git"
+  }
+}
