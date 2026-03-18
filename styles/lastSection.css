@@ -113,8 +113,8 @@
   }
 
   #last .proscons-mobile-card__title--disadvantages {
-    /* color: var(--button-primary-bg); */
-    background: var(--button-secondary-bg);
+    color: var(--button-primary-bg);
+    /* background: var(--button-secondary-bg); */
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
