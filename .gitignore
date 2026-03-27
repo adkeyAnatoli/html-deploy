@@ -1,0 +1,10 @@
+content.md
+content-*.md
+.cursor
+figma-variables.json
+url.txt
+package-lock.json
+package.json
+sitemap.xml
+robots.txt
+node_modules
